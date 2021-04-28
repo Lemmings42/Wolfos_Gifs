@@ -126,7 +126,7 @@
 	<displayEffects>1</displayEffects>
 	<videoVerticalZoom>1.7777777910232544</videoVerticalZoom>
 	<audioVerticalZoom>1.7777777910232544</audioVerticalZoom>
-	<displayRange in="-143453418 1484375000 3 0" out="1397942285 1000000000 3 0"/>
+	<displayRange in="-63275618 1000000000 3 0" out="1431308970 1000000000 3 0"/>
 </timeline>
 
 <curveeditor>
@@ -134,8 +134,8 @@
 	<snapping>0</snapping>
 	<displayAudioWaveform>0</displayAudioWaveform>
 	<lockKeyframesInTime>0</lockKeyframesInTime>
-	<displayRange in="-143453418 1484375000 3 0" out="1397942285 1000000000 3 0"/>
-	<currentviewvolume originx="-0.096642302652631573" originy="-62.5" width="1.4945845879999999" height="125"/>
+	<displayRange in="-63275618 1000000000 3 0" out="1431308970 1000000000 3 0"/>
+	<currentviewvolume originx="-0.063275618000000006" originy="-62.5" width="1.4945845879999999" height="125"/>
 	<snapshotChannels>0</snapshotChannels>
 </curveeditor>
 
@@ -152,7 +152,7 @@
 	<sceneSettings>
 		<width>720</width>
 		<height>720</height>
-		<duration>39</duration>
+		<duration>40</duration>
 		<shouldOverrideFCDuration>0</shouldOverrideFCDuration>
 		<frameRate>30</frameRate>
 		<NTSC>1</NTSC>
@@ -180,11 +180,10 @@
 	<publishSettings>
 		<version>2</version>
 	</publishSettings>
-	<currentFrame>116116 120000 1 0</currentFrame>
-	<currentObject>10180</currentObject>
-	<activeLayer>10170</activeLayer>
-	<timeRange offset="0 1 1 0" duration="156156 120000 1 0"/>
-	<playRange offset="0 1 1 0" duration="156156 120000 1 0"/>
+	<currentFrame>76076 120000 1 0</currentFrame>
+	<activeLayer>10173</activeLayer>
+	<timeRange offset="0 1 1 0" duration="160160 120000 1 0"/>
+	<playRange offset="0 1 1 0" duration="160160 120000 1 0"/>
 	<flags>1</flags>
 	<audioTracks>0</audioTracks>
 	<timemarkerset/>
@@ -211,40 +210,12 @@
 		<parameter name="Properties" id="1" flags="8589938704"/>
 		<parameter name="Object" id="2" flags="8589938704"/>
 	</scenenode>
-	<scenenode name="Light" id="3000346881" factoryID="6" version="5">
-		<aspectRatio>1</aspectRatio>
-		<flags>0</flags>
-		<timing in="0 1 1 0" out="152152 120000 1 0" offset="0 1 1 0"/>
-		<foldFlags>0</foldFlags>
-		<baseFlags>16</baseFlags>
-		<parameter name="Properties" id="1" flags="8589938704">
-			<parameter name="Transform" id="100" flags="8589938704">
-				<parameter name="Position" id="101" flags="8589938704">
-					<foldFlags>15</foldFlags>
-					<parameter name="Y" id="2" flags="8589934608" default="0" value="1.5672945698736871"/>
-					<parameter name="Z" id="3" flags="8589934608" default="100" value="480.59146759903234"/>
-				</parameter>
-				<parameter name="Rotation" id="109" flags="8589938704">
-					<foldFlags>11</foldFlags>
-					<parameter name="X" id="1" flags="8589934608" default="0" value="-3.1457106799877135"/>
-				</parameter>
-			</parameter>
-		</parameter>
-		<parameter name="Object" id="2" flags="8589938704">
-			<parameter name="Light Type" id="100" flags="8590000144" default="2" value="1"/>
-			<parameter name="Intensity" id="102" flags="8589934608" default="1" value="1.4975000000000001"/>
-			<parameter name="Falloff Start" id="103" flags="8594128914" default="0" value="0"/>
-			<parameter name="Falloff" id="104" flags="8594128914" default="0.029999999999999999" value="0.029999999999999999"/>
-			<parameter name="Spot Options" id="105" flags="8594133010"/>
-			<parameter name="Hidden Channel" id="111" flags="12884901906" default="1" value="1"/>
-		</parameter>
-	</scenenode>
 	<scenenode name="Camera" id="10180" factoryID="7" version="5">
 		<aspectRatio>1</aspectRatio>
 		<flags>0</flags>
 		<timing in="0 1 1 0" out="1197196 120000 1 0" offset="0 1 1 0"/>
 		<foldFlags>0</foldFlags>
-		<baseFlags>268435473</baseFlags>
+		<baseFlags>16</baseFlags>
 		<parameter name="Properties" id="1" flags="8589938704">
 			<parameter name="Transform" id="100" flags="8589938704">
 				<parameter name="Rotation" id="109" flags="8589938704">
@@ -283,7 +254,7 @@
 					<parameter name="Green" id="2" flags="8589934608" default="1" value="1.0000001192092896"/>
 					<parameter name="Blue" id="3" flags="8589934608" default="1" value="1.0000001192092896"/>
 				</parameter>
-				<parameter name="Intensity" id="102" flags="8589934608" default="1" value="2.9457998275756836"/>
+				<parameter name="Intensity" id="102" flags="8589934608" default="1" value="2.5211000000000001"/>
 				<parameter name="Falloff Start" id="103" flags="8594128914" default="0" value="0"/>
 				<parameter name="Falloff" id="104" flags="8594128914" default="0.029999999999999999" value="0.029999999999999999"/>
 				<parameter name="Spot Options" id="105" flags="8594133010"/>
@@ -307,8 +278,8 @@
 						<parameter name="Y" id="2" flags="8589934608" default="0" value="25.629999160766602"/>
 						<parameter name="Z" id="3" flags="8589934608" default="100" value="1552.2099609375"/>
 					</parameter>
-					<parameter name="Rotation" id="109" flags="8594133010">
-						<foldFlags>15</foldFlags>
+					<parameter name="Rotation" id="109" flags="8589938704">
+						<foldFlags>11</foldFlags>
 						<parameter name="X" id="1" flags="8589934608" default="0" value="-0.86568331718444824"/>
 						<parameter name="Y" id="2" flags="8589934608" default="0" value="132.67294311523438"/>
 						<parameter name="Z" id="3" flags="8589934608" default="0" value="131.61528015136719"/>
@@ -324,6 +295,8 @@
 					<parameter name="Blue" id="3" flags="8589934608" default="1" value="1.0000001192092896"/>
 				</parameter>
 				<parameter name="Intensity" id="102" flags="8589934608" default="1" value="0.5"/>
+				<parameter name="Falloff Start" id="103" flags="8594128914" default="0" value="0"/>
+				<parameter name="Falloff" id="104" flags="8594128914" default="0.029999999999999999" value="0.029999999999999999"/>
 				<parameter name="Spot Options" id="105" flags="8594133010"/>
 				<parameter name="Hidden Channel" id="111" flags="12884901906" default="1" value="1"/>
 			</parameter>
@@ -496,14 +469,14 @@
 			<pathURL>file:///Users/williamhillery/Desktop/FCP/Motion/DS%20DSi%20-%20The%20Legend%20of%20Zelda%20Spirit%20Tracks%20-%20White%20Wolfos/Current%20Wolfos/Media/White%20wolfos.usdz</pathURL>
 			<relativeURL>Media/White%20wolfos.usdz</relativeURL>
 			<flags>0</flags>
-			<timing in="0 1 1 0" out="0 120000 1 0" offset="0 1 1 0"/>
+			<timing in="0 1 1 0" out="-4 120000 3 0" offset="0 1 1 0"/>
 			<foldFlags>0</foldFlags>
 			<baseFlags>524304</baseFlags>
 			<parameter name="Properties" id="1" flags="8589938704"/>
 			<parameter name="Object" id="2" flags="8589938704"/>
 		</scenenode>
 		<flags>0</flags>
-		<timing in="0 1 1 0" out="0 120000 1 0" offset="0 1 1 0"/>
+		<timing in="0 1 1 0" out="-4 120000 3 0" offset="0 1 1 0"/>
 		<foldFlags>0</foldFlags>
 		<baseFlags>524304</baseFlags>
 		<parameter name="Properties" id="1" flags="8589938704"/>
