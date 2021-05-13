@@ -28,25 +28,7 @@
 	<version>1</version>
 </factory>
 
-<factory id="5" uuid="c329cc18a13f11d7a13e00039366fb58">
-	<description>Spin</description>
-	<manufacturer>Apple</manufacturer>
-	<version>1</version>
-</factory>
-
-<factory id="6" uuid="c8607b294c0446cea658e7c290b295f5">
-	<description>Light</description>
-	<manufacturer>Apple</manufacturer>
-	<version>1</version>
-</factory>
-
-<factory id="7" uuid="de1a9415beb34e5fb0964d1528bef14a">
-	<description>Camera</description>
-	<manufacturer>Apple</manufacturer>
-	<version>1</version>
-</factory>
-
-<factory id="8" uuid="ec6a810f5a4c4fd0b298969462464ecd">
+<factory id="5" uuid="ec6a810f5a4c4fd0b298969462464ecd">
 	<description>3D Object</description>
 	<manufacturer>Apple</manufacturer>
 	<version>1</version>
@@ -82,14 +64,15 @@
 	<showHighQualityResampling>0</showHighQualityResampling>
 	<showShapeAntialiasing>1</showShapeAntialiasing>
 	<show3DIntersectionAntialiasing>0</show3DIntersectionAntialiasing>
-	<cameraType>10180</cameraType>
-	<cameraName>Camera</cameraName>
+	<cameraType>0</cameraType>
+	<cameraName>Active Camera</cameraName>
 	<mirrorHMD>0</mirrorHMD>
-	<panZoom camera="0" zoom="0.96203150581514452" panX="450.5772247752634" panY="130.8029395172565" mode="1" centered="0"/>
-	<panZoom camera="3" zoom="1" panX="433" panY="83" mode="1" centered="1"/>
+	<panZoom camera="0" zoom="0.55588987983062332" panX="249" panY="109" mode="1" centered="0"/>
+	<panZoom camera="1" zoom="1" panX="427" panY="-79" mode="1" centered="0"/>
+	<panZoom camera="3" zoom="1" panX="433" panY="83" mode="1" centered="0"/>
+	<panZoom camera="4" zoom="1" panX="433" panY="83" mode="1" centered="1"/>
 	<panZoom camera="5" zoom="1" panX="433" panY="83" mode="1" centered="0"/>
-	<panZoom camera="6" zoom="1" panX="433" panY="80.5999755859375" mode="1" centered="0"/>
-	<panZoom camera="10180" zoom="1" panX="433" panY="83" mode="1" centered="1"/>
+	<panZoom camera="6" zoom="1" panX="441" panY="22.5999755859375" mode="1" centered="0"/>
 </viewer>
 
 <projectPanel>
@@ -126,7 +109,7 @@
 	<displayEffects>1</displayEffects>
 	<videoVerticalZoom>1.7777777910232544</videoVerticalZoom>
 	<audioVerticalZoom>1.7777777910232544</audioVerticalZoom>
-	<displayRange in="-63275618 1000000000 3 0" out="1431308970 1000000000 3 0"/>
+	<displayRange in="-43043 434250 3 0" out="622622 434250 3 0"/>
 </timeline>
 
 <curveeditor>
@@ -134,8 +117,8 @@
 	<snapping>0</snapping>
 	<displayAudioWaveform>0</displayAudioWaveform>
 	<lockKeyframesInTime>0</lockKeyframesInTime>
-	<displayRange in="-63275618 1000000000 3 0" out="1431308970 1000000000 3 0"/>
-	<currentviewvolume originx="-0.063275618000000006" originy="-62.5" width="1.4945845879999999" height="125"/>
+	<displayRange in="-43043 434250 3 0" out="622622 434250 3 0"/>
+	<currentviewvolume originx="-0.099120322394933791" originy="-62.5" width="1.5329073114565344" height="125"/>
 	<snapshotChannels>0</snapshotChannels>
 </curveeditor>
 
@@ -150,8 +133,8 @@
 
 <scene>
 	<sceneSettings>
-		<width>720</width>
-		<height>720</height>
+		<width>1920</width>
+		<height>1080</height>
 		<duration>40</duration>
 		<shouldOverrideFCDuration>0</shouldOverrideFCDuration>
 		<frameRate>30</frameRate>
@@ -175,15 +158,15 @@
 		<animateFlag>0</animateFlag>
 		<parameterColorSpaceID>3</parameterColorSpaceID>
 		<savePreviewMovie>0</savePreviewMovie>
-		<Object3DEnvironments>0</Object3DEnvironments>
+		<Object3DEnvironments>100</Object3DEnvironments>
 	</sceneSettings>
 	<publishSettings>
 		<version>2</version>
 	</publishSettings>
-	<currentFrame>76076 120000 1 0</currentFrame>
-	<activeLayer>10173</activeLayer>
+	<currentFrame>124124 120000 1 0</currentFrame>
+	<activeLayer>10170</activeLayer>
 	<timeRange offset="0 1 1 0" duration="160160 120000 1 0"/>
-	<playRange offset="0 1 1 0" duration="160160 120000 1 0"/>
+	<playRange offset="68068 120000 1 0" duration="68068 120000 1 0"/>
 	<flags>1</flags>
 	<audioTracks>0</audioTracks>
 	<timemarkerset/>
@@ -210,142 +193,32 @@
 		<parameter name="Properties" id="1" flags="8589938704"/>
 		<parameter name="Object" id="2" flags="8589938704"/>
 	</scenenode>
-	<scenenode name="Camera" id="10180" factoryID="7" version="5">
-		<aspectRatio>1</aspectRatio>
-		<flags>0</flags>
-		<timing in="0 1 1 0" out="1197196 120000 1 0" offset="0 1 1 0"/>
-		<foldFlags>0</foldFlags>
-		<baseFlags>16</baseFlags>
-		<parameter name="Properties" id="1" flags="8589938704">
-			<parameter name="Transform" id="100" flags="8589938704">
-				<parameter name="Rotation" id="109" flags="8589938704">
-					<foldFlags>11</foldFlags>
-					<parameter name="X" id="1" flags="8589934608" default="0" value="-0.66924456127533671"/>
-				</parameter>
-			</parameter>
-		</parameter>
-		<parameter name="Object" id="2" flags="8589938704"/>
-	</scenenode>
-	<layer name="Group 2" id="10173">
-		<scenenode name="Top" id="10177" factoryID="6" version="5">
-			<aspectRatio>1</aspectRatio>
-			<flags>0</flags>
-			<timing in="0 1 1 0" out="1197196 120000 1 0" offset="0 1 1 0"/>
-			<foldFlags>0</foldFlags>
-			<baseFlags>16</baseFlags>
-			<parameter name="Properties" id="1" flags="8589938704">
-				<parameter name="Transform" id="100" flags="8589938704">
-					<parameter name="Position" id="101" flags="8589938704">
-						<foldFlags>15</foldFlags>
-						<parameter name="Y" id="2" flags="8589934608" default="0" value="19.989999771118164"/>
-						<parameter name="Z" id="3" flags="8589934608" default="100" value="0.69999998807907104"/>
-					</parameter>
-					<parameter name="Rotation" id="109" flags="8589938704">
-						<foldFlags>11</foldFlags>
-						<parameter name="X" id="1" flags="8589934608" default="0" value="-1.5533430576324463"/>
-					</parameter>
-				</parameter>
-			</parameter>
-			<parameter name="Object" id="2" flags="8589938704">
-				<parameter name="Light Type" id="100" flags="8590000144" default="2" value="1"/>
-				<parameter name="Color" id="101" flags="8589938704">
-					<foldFlags>15</foldFlags>
-					<parameter name="Red" id="1" flags="8589934608" default="1" value="1.0000001192092896"/>
-					<parameter name="Green" id="2" flags="8589934608" default="1" value="1.0000001192092896"/>
-					<parameter name="Blue" id="3" flags="8589934608" default="1" value="1.0000001192092896"/>
-				</parameter>
-				<parameter name="Intensity" id="102" flags="8589934608" default="1" value="2.5211000000000001"/>
-				<parameter name="Falloff Start" id="103" flags="8594128914" default="0" value="0"/>
-				<parameter name="Falloff" id="104" flags="8594128914" default="0.029999999999999999" value="0.029999999999999999"/>
-				<parameter name="Spot Options" id="105" flags="8594133010"/>
-				<parameter name="Shadows" id="109" flags="8589938704">
-					<foldFlags>131083</foldFlags>
-				</parameter>
-				<parameter name="Hidden Channel" id="111" flags="12884901906" default="1" value="1"/>
-			</parameter>
-		</scenenode>
-		<scenenode name="Front" id="10176" factoryID="6" version="5">
-			<aspectRatio>1</aspectRatio>
-			<flags>0</flags>
-			<timing in="0 1 1 0" out="1197196 120000 1 0" offset="0 1 1 0"/>
-			<foldFlags>0</foldFlags>
-			<baseFlags>16</baseFlags>
-			<parameter name="Properties" id="1" flags="8589938704">
-				<parameter name="Transform" id="100" flags="8589938704">
-					<parameter name="Position" id="101" flags="8589938704">
-						<foldFlags>15</foldFlags>
-						<parameter name="X" id="1" flags="8589934608" default="0" value="42.209999084472656"/>
-						<parameter name="Y" id="2" flags="8589934608" default="0" value="25.629999160766602"/>
-						<parameter name="Z" id="3" flags="8589934608" default="100" value="1552.2099609375"/>
-					</parameter>
-					<parameter name="Rotation" id="109" flags="8589938704">
-						<foldFlags>11</foldFlags>
-						<parameter name="X" id="1" flags="8589934608" default="0" value="-0.86568331718444824"/>
-						<parameter name="Y" id="2" flags="8589934608" default="0" value="132.67294311523438"/>
-						<parameter name="Z" id="3" flags="8589934608" default="0" value="131.61528015136719"/>
-					</parameter>
-				</parameter>
-			</parameter>
-			<parameter name="Object" id="2" flags="8589938704">
-				<parameter name="Light Type" id="100" flags="8590000144" default="2" value="1"/>
-				<parameter name="Color" id="101" flags="8589938704">
-					<foldFlags>15</foldFlags>
-					<parameter name="Red" id="1" flags="8589934608" default="1" value="1.0000001192092896"/>
-					<parameter name="Green" id="2" flags="8589934608" default="1" value="1.0000001192092896"/>
-					<parameter name="Blue" id="3" flags="8589934608" default="1" value="1.0000001192092896"/>
-				</parameter>
-				<parameter name="Intensity" id="102" flags="8589934608" default="1" value="0.5"/>
-				<parameter name="Falloff Start" id="103" flags="8594128914" default="0" value="0"/>
-				<parameter name="Falloff" id="104" flags="8594128914" default="0.029999999999999999" value="0.029999999999999999"/>
-				<parameter name="Spot Options" id="105" flags="8594133010"/>
-				<parameter name="Hidden Channel" id="111" flags="12884901906" default="1" value="1"/>
-			</parameter>
-		</scenenode>
-		<aspectRatio>1</aspectRatio>
-		<flags>0</flags>
-		<timing in="0 1 1 0" out="1197196 120000 1 0" offset="0 1 1 0"/>
-		<foldFlags>0</foldFlags>
-		<baseFlags>524304</baseFlags>
-		<parameter name="Properties" id="1" flags="8589938704">
-			<parameter name="Shadows" id="234" flags="8589938706">
-				<foldFlags>15</foldFlags>
-			</parameter>
-			<parameter name="Drop Shadow" id="208" flags="8589973522">
-				<foldFlags>131087</foldFlags>
-			</parameter>
-			<parameter name="Four Corner" id="207" flags="8589973506">
-				<foldFlags>131087</foldFlags>
-			</parameter>
-			<parameter name="Crop" id="216" flags="8589973522">
-				<foldFlags>131087</foldFlags>
-			</parameter>
-		</parameter>
-		<parameter name="Object" id="2" flags="8589938704">
-			<parameter name="Type" id="307" flags="8589934608" default="0" value="1"/>
-			<parameter name="Fixed Resolution" id="301" flags="8589936658" default="0" value="0"/>
-			<parameter name="Fixed Width" id="302" flags="12884901910" default="720" value="720"/>
-			<parameter name="Fixed Height" id="303" flags="12884901910" default="720" value="720"/>
-			<parameter name="Aperture Width" id="312" flags="12884901906" default="720" value="720"/>
-			<parameter name="Aperture Height" id="313" flags="12884901906" default="720" value="720"/>
-		</parameter>
-	</layer>
 	<layer name="Group 1" id="10170">
-		<scenenode name="White wolfos" id="10171" factoryID="8" version="5">
-			<aspectRatio>0</aspectRatio>
+		<scenenode name="White wolfos" id="10171" factoryID="5" version="5">
+			<aspectRatio>1</aspectRatio>
 			<flags>0</flags>
-			<timing in="0 1 1 0" out="1197196 120000 1 0" offset="0 1 1 0"/>
-			<foldFlags>0</foldFlags>
-			<baseFlags>524304</baseFlags>
+			<timing in="0 120000 1 0" out="156156 120000 1 0" offset="0 120000 1 0"/>
+			<foldFlags>65536</foldFlags>
+			<baseFlags>524368</baseFlags>
 			<parameter name="Properties" id="1" flags="8589938704">
 				<parameter name="Transform" id="100" flags="8589938704">
 					<parameter name="Position" id="101" flags="8589938704">
 						<foldFlags>15</foldFlags>
-						<parameter name="Y" id="2" flags="8589934608" default="0" value="-183.33996582027117"/>
-						<parameter name="Z" id="3" flags="8589934608" default="0" value="-133.52785943859431"/>
+						<parameter name="X" id="1" flags="8589934608" default="0" value="0.499993803999494"/>
+						<parameter name="Y" id="2" flags="8589934608" default="0" value="-542.37073607975412"/>
+						<parameter name="Z" id="3" flags="8589934608" default="0" value="-1698.8756859962534"/>
 					</parameter>
 					<parameter name="Rotation" id="109" flags="8589938704">
 						<foldFlags>11</foldFlags>
-						<parameter name="Y" id="2" flags="8589934608" default="0" value="-0.70937747357656888"/>
+						<parameter name="X" id="1" flags="8589934608" default="0" value="-0.035064395893288497"/>
+						<parameter name="Y" id="2" flags="8589934608" default="0" value="0.14801645983096576"/>
+						<parameter name="Z" id="3" flags="8589934608" default="0" value="0.26885410418848044"/>
+					</parameter>
+					<parameter name="Scale" id="105" flags="8589938704">
+						<foldFlags>15</foldFlags>
+						<parameter name="X" id="1" flags="8589934608" default="1" value="4"/>
+						<parameter name="Y" id="2" flags="8589934608" default="1" value="4"/>
+						<parameter name="Z" id="3" flags="8589934608" default="1" value="4"/>
 					</parameter>
 					<parameter name="Shear" id="106" flags="8594198578">
 						<foldFlags>15</foldFlags>
@@ -370,13 +243,14 @@
 				<parameter name="Retime Value" id="309" flags="8590065938">
 					<curve type="1" default="1" value="1" retimingExtrapolation="1">
 						<numberOfKeypoints>2</numberOfKeypoints>
+						<postExtrapolation>1</postExtrapolation>
 						<keypoint interpolation="1" flags="0">
-							<time>0 1 1 0</time>
+							<time>0 120000 1 0</time>
 							<value>1</value>
 						</keypoint>
 						<keypoint interpolation="1" flags="0">
-							<time>1201200 120000 1 0</time>
-							<value>301</value>
+							<time>160160 120000 1 0</time>
+							<value>41</value>
 						</keypoint>
 					</curve>
 				</parameter>
@@ -398,17 +272,10 @@
 			<parameter name="Object" id="2" flags="8589938704">
 				<parameter name="Custom Unit Size" id="303" flags="12884934656" default="254.94160403830577" value="254.94160403830577"/>
 			</parameter>
-			<behavior name="Spin" id="10182" factoryID="5">
-				<timing in="0 1 1 0" out="1197196 120000 1 0" offset="0 1 1 0"/>
-				<baseFlags>16</baseFlags>
-				<parameter name="Affect Subobjects" id="300" flags="18" default="0" value="0"/>
-				<parameter name="Spin Rate" id="400" flags="16" default="0" value="-4.7372750053116821"/>
-				<parameter name="Axis" id="403" flags="65552" default="2" value="1"/>
-			</behavior>
 		</scenenode>
 		<aspectRatio>1</aspectRatio>
 		<flags>0</flags>
-		<timing in="0 1 1 0" out="1197196 120000 1 0" offset="0 1 1 0"/>
+		<timing in="0 1 1 0" out="156156 120000 1 0" offset="0 1 1 0"/>
 		<foldFlags>0</foldFlags>
 		<baseFlags>524304</baseFlags>
 		<parameter name="Properties" id="1" flags="8589938704">
@@ -432,35 +299,6 @@
 			<parameter name="Fixed Height" id="303" flags="12884901910" default="720" value="720"/>
 			<parameter name="Aperture Width" id="312" flags="12884901906" default="720" value="720"/>
 			<parameter name="Aperture Height" id="313" flags="12884901906" default="720" value="720"/>
-		</parameter>
-	</layer>
-	<layer name="Group" id="10003">
-		<aspectRatio>1</aspectRatio>
-		<flags>0</flags>
-		<timing in="0 1 1 0" out="-4004 120000 1 0" offset="0 1 1 0"/>
-		<foldFlags>0</foldFlags>
-		<baseFlags>524304</baseFlags>
-		<parameter name="Properties" id="1" flags="8589938704">
-			<parameter name="Shadows" id="234" flags="8589938706">
-				<foldFlags>15</foldFlags>
-			</parameter>
-			<parameter name="Drop Shadow" id="208" flags="8589973522">
-				<foldFlags>131087</foldFlags>
-			</parameter>
-			<parameter name="Four Corner" id="207" flags="8589973506">
-				<foldFlags>131087</foldFlags>
-			</parameter>
-			<parameter name="Crop" id="216" flags="8589973522">
-				<foldFlags>131087</foldFlags>
-			</parameter>
-		</parameter>
-		<parameter name="Object" id="2" flags="8589938704">
-			<parameter name="Type" id="307" flags="8589934608" default="0" value="1"/>
-			<parameter name="Fixed Resolution" id="301" flags="8589936658" default="0" value="0"/>
-			<parameter name="Fixed Width" id="302" flags="12884901910" default="1920" value="1920"/>
-			<parameter name="Fixed Height" id="303" flags="12884901910" default="1080" value="1080"/>
-			<parameter name="Aperture Width" id="312" flags="12884901906" default="1920" value="1920"/>
-			<parameter name="Aperture Height" id="313" flags="12884901906" default="1080" value="1080"/>
 		</parameter>
 	</layer>
 
